@@ -19,5 +19,5 @@ public partial class Customer
 
     public virtual ICollection<Invoice> Invoices { get; set; } = new List<Invoice>();
 
-    public virtual State StateNavigation { get; set; } = null!;
+    public virtual State? StateNavigation { get; set; } = null!;
 }
