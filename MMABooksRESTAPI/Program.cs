@@ -9,7 +9,7 @@ builder.Services.AddCors(options => {
         builder => {
             builder
             .AllowAnyOrigin()
-            .WithMethods("post", "put", "delete", "get", "options")
+            .WithMethods("POST", "PUT", "DELETE", "GET", "OPTIONS")
             .AllowAnyHeader();
         });
 });
